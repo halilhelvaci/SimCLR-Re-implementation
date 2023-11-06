@@ -5,10 +5,10 @@ SimCLR was introduced by researchers at Google AI in a paper titled "A Simple Fr
 
 ## Here's a simplified overview of the key components and steps in SimCLR: ##
 
-1. Siamese Network: SimCLR uses a twin neural network architecture (siamese network) where two identical subnetworks share the same weights. Each subnetwork takes in a different view of the same data point. The idea is to encourage the network to produce similar representations for these two views.
+1. __Siamese Network:__ SimCLR uses a twin neural network architecture (siamese network) where two identical subnetworks share the same weights. Each subnetwork takes in a different view of the same data point. The idea is to encourage the network to produce similar representations for these two views.
 
-2. Data Augmentation: Data augmentation is a crucial part of SimCLR. It involves applying various augmentations to create different views of the same data point. These augmentations include random cropping, color jittering, and other transformations. Data augmentations help in creating diverse positive pairs for contrastive learning.
+2. __Data Augmentation:__ Data augmentation is a crucial part of SimCLR. It involves applying various augmentations to create different views of the same data point. These augmentations include random cropping, color jittering, and other transformations. Data augmentations help in creating diverse positive pairs for contrastive learning.
 
-3. Contrastive Learning Objective: SimCLR uses a loss function that encourages the model to minimize the similarity (e.g., cosine similarity) between the representations of positive pairs and maximize the similarity between the representations of negative pairs. The contrastive loss pushes the representations of similar data points close together while pushing the representations of dissimilar data points apart.
+3. __Contrastive Learning Objective:__ SimCLR uses a loss function that encourages the model to minimize the similarity (e.g., cosine similarity) between the representations of positive pairs and maximize the similarity between the representations of negative pairs. The contrastive loss pushes the representations of similar data points close together while pushing the representations of dissimilar data points apart.
 
-4. Evaluation and Fine-tuning: After training the model using contrastive learning, the learned representations can be fine-tuned for specific downstream tasks like image classification or object detection. The representations often lead to improved performance in these tasks compared to random initialization.
+4. __Evaluation and Fine-tuning:__ After training the model using contrastive learning, the learned representations can be fine-tuned for specific downstream tasks like image classification or object detection. The representations often lead to improved performance in these tasks compared to random initialization.
