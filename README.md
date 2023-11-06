@@ -22,7 +22,6 @@ SimCLR was introduced by researchers at Google AI in a paper titled "A Simple Fr
 
 SimCLR has gained popularity because of its simplicity and effectiveness in learning powerful representations from large-scale unlabeled datasets. It has been applied in various computer vision applications and is considered one of the state-of-the-art methods for self-supervised learning in this domain. Additionally, it has inspired further research into self-supervised learning techniques and their applications in natural language processing and other domains.
 
-
 __ablation_SimCLR.py:__ This Python script likely contains code to perform an ablation study on a SimCLR-based model implemented in PyTorch. Ablation studies involve systematically disabling or removing specific components or features of a model to assess their impact on performance. This script would evaluate the model's performance under various conditions by modifying or removing certain components, such as loss functions, data augmentations, or network architectures, and then measuring the model's effectiveness.
 
 __load_simCLR.py:__  This Python script is likely responsible for loading a pre-trained SimCLR model implemented in PyTorch. It would typically involve code to load the model's weights and architecture from saved checkpoint files, allowing users to reuse a pre-trained SimCLR model for various downstream tasks or evaluations without retraining the model from scratch.
