@@ -1,9 +1,7 @@
 # SimCLR - A Simple Framework for Contrastive Learning of Visual Representations - Simplified PyTorch Re-Implementation
 
-The aim of this repo is to implement the <a href="https://arxiv.org/abs/2002.05709">SimCLR</a> paper using PyTorch. The aim is to prov
 
-
-SimCLR was introduced by researchers at Google AI in a paper titled "A Simple Framework for Contrastive Learning of Visual Representations" in 2020 <a href="https://arxiv.org/abs/2002.05709">SimCLR</a>  . It is based on the idea of contrastive learning, where the model is trained to bring similar data points (positive pairs) closer in the representation space and push dissimilar data points (negative pairs) farther apart. The framework primarily uses a siamese network architecture and employs contrastive loss functions to train the model.
+SimCLR was introduced by researchers at Google AI in a paper titled "A Simple Framework for Contrastive Learning of Visual Representations" in 2020 <a href="https://arxiv.org/abs/2002.05709">SimCLR</a>  . It is based on the idea of contrastive learning, where the model is trained to bring similar data points (positive pairs) closer in the representation space and push dissimilar data points (negative pairs) farther apart. The framework primarily uses a siamese network architecture and employs contrastive loss functions to train the model. __The aim of this repo is to implement the <a href="https://arxiv.org/abs/2002.05709">SimCLR</a> paper using PyTorch.__
 
 ## Here's a simplified overview of the key components and steps in SimCLR: ##
 
