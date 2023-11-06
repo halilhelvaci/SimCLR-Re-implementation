@@ -5,9 +5,9 @@ The aim of this repo is to implement the <a href="https://arxiv.org/abs/2002.057
 
 SimCLR was introduced by researchers at Google AI in a paper titled "A Simple Framework for Contrastive Learning of Visual Representations" in 2020 <a href="https://arxiv.org/abs/2002.05709">SimCLR</a>  . It is based on the idea of contrastive learning, where the model is trained to bring similar data points (positive pairs) closer in the representation space and push dissimilar data points (negative pairs) farther apart. The framework primarily uses a siamese network architecture and employs contrastive loss functions to train the model.
 
-Here's a simplified overview of the key components and steps in SimCLR:
+##Here's a simplified overview of the key components and steps in SimCLR:##
 
-Markup :  1. Siamese Network: SimCLR uses a twin neural network architecture (siamese network) where two identical subnetworks share the same weights. Each subnetwork takes in a different view of the same data point. The idea is to encourage the network to produce similar representations for these two views.
+1. Siamese Network: SimCLR uses a twin neural network architecture (siamese network) where two identical subnetworks share the same weights. Each subnetwork takes in a different view of the same data point. The idea is to encourage the network to produce similar representations for these two views.
 
 2. Data Augmentation: Data augmentation is a crucial part of SimCLR. It involves applying various augmentations to create different views of the same data point. These augmentations include random cropping, color jittering, and other transformations. Data augmentations help in creating diverse positive pairs for contrastive learning.
 
