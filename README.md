@@ -24,9 +24,9 @@ SimCLR has gained popularity because of its simplicity and effectiveness in lear
 
 ## Code Guideline ##
 
-- __ablation_SimCLR.py:__ This Python script likely contains code to perform an ablation study on a SimCLR-based model implemented in PyTorch. Ablation studies involve systematically disabling or removing specific components or features of a model to assess their impact on performance. This script would evaluate the model's performance under various conditions by modifying or removing certain components, such as loss functions, data augmentations, or network architectures, and then measuring the model's effectiveness.
+- __ablation_SimCLR.py:__  Python script that conducts a comparative analysis between a classifier model initialized with pre-trained representations obtained through SimCLR and a reference classifier with no such initialization. This examination serves to demonstrate the enhancing effect of SimCLR pre-training on the overall performance of the classifier models, providing empirical evidence of its beneficial impact on the outcomes.
 
-- __load_simCLR.py:__  This Python script is likely responsible for loading a pre-trained SimCLR model implemented in PyTorch. It would typically involve code to load the model's weights and architecture from saved checkpoint files, allowing users to reuse a pre-trained SimCLR model for various downstream tasks or evaluations without retraining the model from scratch.
+- __load_simCLR.py:__  Python script that loads a pre-trained SimCLR model implemented in PyTorch. This allows users to reuse a pre-trained SimCLR model for various downstream tasks or evaluations without retraining the model from scratch.
 
 - __loss_plot.png:__  This file appears to be an image (PNG format) rather than a Python script. It likely contains a plot or graph visualizing the loss during the training of a SimCLR model. The loss plot is a useful tool for understanding how the model's training progressed over time, showing if the loss decreased as the training iterations or epochs advanced. This can help assess the convergence and effectiveness of the training process.
 
