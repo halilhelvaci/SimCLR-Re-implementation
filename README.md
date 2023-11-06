@@ -7,7 +7,7 @@ SimCLR was introduced by researchers at Google AI in a paper titled "A Simple Fr
   <img width="50%" alt="SimCLR Illustration" src="https://1.bp.blogspot.com/--vH4PKpE9Yo/Xo4a2BYervI/AAAAAAAAFpM/vaFDwPXOyAokAC8Xh852DzOgEs22NhbXwCLcBGAsYHQ/s1600/image4.gif">
 </div>
 <div align="center">
-  An illustration of SimCLR.
+  Illustration of SimCLR
 </div>
 
 ## Here's a simplified overview of the key components and steps in SimCLR: ##
