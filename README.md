@@ -3,8 +3,6 @@
 
 SimCLR was introduced by researchers at Google AI in a paper titled "A Simple Framework for Contrastive Learning of Visual Representations" in 2020 <a href="https://arxiv.org/abs/2002.05709">SimCLR</a>  . It is based on the idea of contrastive learning, where the model is trained to bring similar data points (positive pairs) closer in the representation space and push dissimilar data points (negative pairs) farther apart. The framework primarily uses a siamese network architecture and employs contrastive loss functions to train the model. __The aim of this repo is to implement the <a href="https://arxiv.org/abs/2002.05709">SimCLR</a> paper using PyTorch.__
 
-<span style="color: red"><strong>News! </strong></span> Colabs for <a href="https://arxiv.org/abs/2011.02803">Intriguing Properties of Contrastive Losses</a> are added, see <a href="colabs/intriguing_properties/">here</a>.
-
 <div align="center">
   <img width="50%" alt="SimCLR Illustration" src="https://1.bp.blogspot.com/--vH4PKpE9Yo/Xo4a2BYervI/AAAAAAAAFpM/vaFDwPXOyAokAC8Xh852DzOgEs22NhbXwCLcBGAsYHQ/s1600/image4.gif">
 </div>
