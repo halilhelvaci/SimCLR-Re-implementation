@@ -22,4 +22,11 @@ SimCLR was introduced by researchers at Google AI in a paper titled "A Simple Fr
 
 SimCLR has gained popularity because of its simplicity and effectiveness in learning powerful representations from large-scale unlabeled datasets. It has been applied in various computer vision applications and is considered one of the state-of-the-art methods for self-supervised learning in this domain. Additionally, it has inspired further research into self-supervised learning techniques and their applications in natural language processing and other domains.
 
-## 
+
+__ablation_SimCLR.py:__ This Python script likely contains code to perform an ablation study on a SimCLR-based model implemented in PyTorch. Ablation studies involve systematically disabling or removing specific components or features of a model to assess their impact on performance. This script would evaluate the model's performance under various conditions by modifying or removing certain components, such as loss functions, data augmentations, or network architectures, and then measuring the model's effectiveness.
+
+__load_simCLR.py:__  This Python script is likely responsible for loading a pre-trained SimCLR model implemented in PyTorch. It would typically involve code to load the model's weights and architecture from saved checkpoint files, allowing users to reuse a pre-trained SimCLR model for various downstream tasks or evaluations without retraining the model from scratch.
+
+__ loss_plot.png:__  This file appears to be an image (PNG format) rather than a Python script. It likely contains a plot or graph visualizing the loss during the training of a SimCLR model. The loss plot is a useful tool for understanding how the model's training progressed over time, showing if the loss decreased as the training iterations or epochs advanced. This can help assess the convergence and effectiveness of the training process.
+
+__ tSNE.py:__  This Python script is likely responsible for performing t-distributed Stochastic Neighbor Embedding (t-SNE) on the learned representations produced by a SimCLR model. t-SNE is a dimensionality reduction technique often used for visualizing high-dimensional data in lower-dimensional spaces. In the context of SimCLR, it might be used to visualize the model's representations in a lower-dimensional space, making it easier to analyze and understand the distribution and clustering of data points in the learned feature space.
